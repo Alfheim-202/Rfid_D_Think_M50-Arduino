@@ -25,6 +25,10 @@ D-Think_M50 Ä£¿éÔÚ´®¿ÚĞ­ÒéÉÏÓÖ°üº¬ÁËÊı¾İÖ¡·â×°Ğ­Òé£¨¼ûdatasheet£©£¬±à³ÌÆğÀ´½ÏÂé·
 4. °´ÕÕ×¢ÊÍµÄÖ¸Ê¾½øĞĞ²âÊÔ.
 
 
+# Ê¾Àı
+
+Ê¾Àı ./examples/Read_Write_Lock_HardSerial ºÍ ./examples/Read_Write_Lock_SoftSerial ÊÇÒ»¸ö½»»¥Ê½µÄ¶Á¿¨¡¢Ğ´¿¨¡¢Ëø¿¨³ÌĞò¡£ÓÃÓÚ¶Ô´óÁ¿¿¨Æ¬½øĞĞ²Ù×÷¡£
+
 
 
 # Rfid_D_Think_M50 ÀàµÄ API ÃèÊö
