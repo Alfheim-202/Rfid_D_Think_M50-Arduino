@@ -1,20 +1,19 @@
 // D-Think_M50 Rfid 模块 读取一块数据示例（软串口）
+// Arduino型号：Arduino UNO、 Arduino Nano、 Arduino Pro Mini 等
+//
 // 2016/08/19
 //
 // 功能： 尝试寻找 Rfid 标签并读取其第0块数据（前4字节）
 //        每 0.3 秒检测一次
 //        若Rfid标签在读取范围，则读取结果打印到串口0
+//   
+// 接线(以Arduino UNO和Arduino Nano为例)：     Arduino   |    D-Think_M50 模块
+//                                               5V      |        VCC
+//                                               GND     |        GND
+//                                          3(软串口TX)  |         RX
+//                                          2(软串口RX)  |         TX
 //
-// 注意： 因为使用软串口，该示例兼容硬件串口不够的 Arduino 型号：
-//          Arduino UNO、 Arduino Nano、 Arduino Pro Mini 等
-//
-// 接线： Arduino   |    D-Think_M50 模块
-//          5V      |        VCC
-//          GND     |        GND
-//     3(软串口TX)  |         RX
-//     2(软串口RX)  |         TX
-//
-// 模块耗电量大，建议使用外部电源供电.
+// 模块耗电量大(约0.4A)，建议使用外部电源供电.
 //
 
 

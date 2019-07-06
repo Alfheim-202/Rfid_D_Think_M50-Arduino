@@ -1,4 +1,6 @@
 // D-Think_M50 Rfid 模块 读取一块数据示例
+// Arduino型号：Arduino Mega2560 等
+//
 // 2016/08/19
 //
 // 功能： 尝试寻找 Rfid 标签并读取其第0块数据（前4字节）
@@ -6,15 +8,15 @@
 //        若Rfid标签在读取范围，则读取结果打印到串口0
 //
 // 注意： 请使用具有不止一个硬件串口的 Arduino 型号。比如：
-//          Arduino 101、 Arduino Mega2560、 Arduino DUE、 Arduino Zero、 Teensy 等
-//        以下 Arduino 型号只具有1个串口，在与PC通信时无法使用该例程。请参考软串口示例
+//          Arduino Mega2560
+//        以下 Arduino 型号只具有1个串口，在与PC通信时无法使用该例程。请参考软串口示例:
 //          Arduino UNO、 Arduino Nano、 Arduino Pro Mini 等
 //
-// 接线： Arduino   |    D-Think_M50 模块
-//          5V      |        VCC
-//          GND     |        GND
-//          TX1     |        RX
-//          RX1     |        TX
+// 接线： Arduino Mega2560   |    D-Think_M50 模块
+//          5V               |        VCC
+//          GND              |        GND
+//          TX1(18)          |        RX
+//          RX1(19)          |        TX
 //
 // 模块耗电量大，建议使用外部电源供电.
 //
