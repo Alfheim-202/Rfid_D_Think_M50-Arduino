@@ -1,7 +1,7 @@
 # D-Think_M50 Rfid 模块 Arduino 库
 ===========================
 
-该库使用 Arduino 的 **硬串口** 或 **软串口** 与 **D-Think_M50模块** 通信，完成 **ISO15693电子标签** 读写。该库依据 [模块datasheet](https://github.com/WangXuan95/Rfid_D_Think_M50-Arduino/blob/master/doc/D-Think_M50D DataSheet_CN_ISO15693.pdf "模块datasheet") 编写。
+该库使用 Arduino 的 **硬串口** 或 **软串口** 与 **D-Think_M50模块** 通信，完成 **ISO15693电子标签** 读写。该库依据 [模块datasheet](https://github.com/WangXuan95/Rfid_D_Think_M50-Arduino/blob/master/doc/D-Think_M50D_DataSheet_CN_ISO15693.pdf) 编写。
 
 ![image](https://github.com/WangXuan95/Rfid_D_Think_M50-Arduino/blob/master/doc/RFID_UNO_Connection.jpg)
 
@@ -9,7 +9,7 @@
 
 ### 安装 Arduino IDE
 
-如果还没有安装Arduino IDE，需要安装它。可前往[Arduino官网下载](https://www.arduino.cc/en/Main/Software)。安装后找到其路径，比如在笔者电脑里，路径是 **C:\Arduino\**
+如果还没有安装Arduino IDE，需要安装它。可前往[Arduino官网下载](https://www.arduino.cc/en/Main/Software)。安装后找到其路径，比如在笔者电脑里，路径是 **C:\\Arduino\\**
 
 ### 下载该库并解压
 
@@ -17,7 +17,7 @@
 
 ### 移动该库到Arduino IDE的库文件夹
 
-移动解压得到的文件夹，到 **[你的Arduino IDE安装目录]\libraries** 。比如在笔者电脑里，应该移动到 **C:\Arduino\libraries**
+移动解压得到的文件夹，到 **[你的Arduino IDE安装目录]\\libraries** 。比如在笔者电脑里，应该移动到 **C:\\Arduino\\libraries**
 
 ![image](https://github.com/WangXuan95/Rfid_D_Think_M50-Arduino/blob/master/doc/op2.png)
 
@@ -29,8 +29,6 @@
 * 若你的Arduino **有多个硬件串口**（比如 **Arduino Mega2560** ），则可以用硬串口与模块通信，请选择以 **HardSerial** 为结尾的示例。这里，我们选择示例: **readBlock_HardSerial**
 
 ![image](https://github.com/WangXuan95/Rfid_D_Think_M50-Arduino/blob/master/doc/op3.png)
-
-然后，请按照示例的 **注释** 进行连线和测试
 
 ![image](https://github.com/WangXuan95/Rfid_D_Think_M50-Arduino/blob/master/doc/op4.png)
 
