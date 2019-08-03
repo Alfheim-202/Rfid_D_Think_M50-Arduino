@@ -1,4 +1,8 @@
-# D-Think_M50 Rfid 模块 Arduino 库
+![test](https://img.shields.io/badge/test-passing-green.svg)
+![docs](https://img.shields.io/badge/docs-passing-green.svg)
+![docs](https://img.shields.io/badge/platform-UNO|Nano|Mega2560-blue.svg)
+
+D-Think_M50 Rfid 模块 Arduino 库
 ===========================
 
 该库使用 Arduino 的 **硬串口** 或 **软串口** 与 **D-Think_M50模块** 通信，完成 **ISO15693电子标签** 读写。该库依据 [模块datasheet](https://github.com/WangXuan95/Rfid_D_Think_M50-Arduino/blob/master/doc/D-Think_M50D_DataSheet_CN_ISO15693.pdf) 编写。
